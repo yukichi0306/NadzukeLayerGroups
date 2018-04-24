@@ -100,7 +100,8 @@ if(lsObj.length == 0)
 {
     for(var i=0; i<IdArray.length; i++)
     {
-    activeDocument.layerSets.add();
+        activeDocument.layerSets.add();
+        LayerSetColor();
     }
 }
 //昇順を選択実行時、レイヤーグループの数が足りない場合
