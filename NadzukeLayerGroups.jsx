@@ -12,7 +12,7 @@ var lsObj = activeDocument.layerSets;
 //ダイアログを表示=================================================================================
 uDlg = new Window('dialog','NadukeLayerGroups',[0,0,440,280]);
 uDlg.center();
-uDlg.sText1 = uDlg.add("statictext",[0,20,440,20+24],"CSVから読み込んだ文字列をもとに、レイヤーグループを作ります。");
+uDlg.sText1 = uDlg.add("statictext",[0,20,440,20+24],"CSVから読み込んだ文字列をもとに、レイヤーグループの名前を変更します。");
 uDlg.sText1.justify = "center";
 uDlg.sText = uDlg.add("statictext",[66,76,66+54,76+24], "CSV ：");
 uDlg.eText1 = uDlg.add("edittext",[128,76,128+200,76+24]);
